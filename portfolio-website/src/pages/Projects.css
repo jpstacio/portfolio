@@ -1,0 +1,74 @@
+.centered-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .projects-page h2 {
+    font-size: 2.5rem;
+    color: #f4bf75; 
+    margin-bottom: 2rem;
+  }
+  
+  /* Technical Skills Section */
+  .skills-section {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  
+  .skills-section p {
+    font-size: 1.2rem;
+    color: #ffffff; 
+  }
+  
+  .languages-title {
+    color: #f92672; 
+  }
+  
+  .frameworks-title {
+    color: #a6e22e; 
+  }
+  
+  .developer-tools-title {
+    color: #66d9ef; 
+  }
+  
+  .technologies-title {
+    color: #a6e22e; 
+  }
+  
+  /* Project Section */
+  .project-section {
+    background-color: #221a0f; 
+    padding: 20px;
+    border: 1px solid #f4bf75;
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+  
+  .project-section h3 {
+    font-size: 1.8rem;
+    color: #f92672; 
+  }
+  
+  .project-section .technologies {
+    font-size: 1.2rem;
+    color: #a6e22e; 
+  }
+  
+  .project-section .description {
+    font-size: 1.2rem;
+    color: #ffffff; 
+  }
+  
+  .project-section a {
+    font-size: 1.2rem;
+    color: #f92672; 
+    text-decoration: none;
+  }
+  
+  .project-section a:hover {
+    text-decoration: underline;
+  }
+  

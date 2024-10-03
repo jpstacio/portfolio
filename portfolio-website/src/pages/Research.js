@@ -1,45 +1,49 @@
 import React from 'react';
-import './Research.css'; // Custom styles for the research page
+import './Research.css'; 
 
 const Research = () => {
   const publications = [
     {
       title: 'Generative AI in Medical Imaging',
-      description: 'A deep dive into AI models used for medical image generation and diagnostics.',
-      link: '#', // Replace with actual link to publication
-    },
-    {
-      title: 'Ethical Considerations of AI in Healthcare',
-      description: 'Exploring the ethical implications of using AI models in healthcare environments.',
+      description: '[insert publication at the end of the year]',
       link: '#', // Replace with actual link to publication
     },
   ];
 
   const lectures = [
     {
-      title: 'Lecture Series: Introduction to AI in Medicine',
-      description: 'An introductory lecture on how AI models are transforming medical diagnostics.',
-      date: 'August 2024',
-      link: 'https://your-link-to-slides.com', // Add your actual link here
+      title: 'Lecture Series: Introduction to Generative AI in Medical Imaging',
+      description: 'An overview of how generative AI models are being applied in medical imaging to improve diagnostics and patient care.',
+      link: 'https://your-link-to-slides.com', 
     },
     {
-      title: 'Lecture Series: Advanced AI Techniques for Medical Imaging',
-      description: 'A deep dive into the state-of-the-art AI techniques used in medical imaging.',
-      date: 'September 2024',
-      link: 'https://your-link-to-slides.com', // Add your actual link here
+      title: 'Lecture Series: Exploring LLaVA-Med and other Multimodal Models',
+      description: 'A deep dive into LLaVA-Med and other multimodal models that combine text and image data for enhanced medical imaging analysis.',
+      link: 'https://your-link-to-slides.com', 
+    },
+    {
+      title: 'Lecture Series: Data Processing and Training Generative AI Models',
+      description: 'Covers the essential data preprocessing techniques and training processes for generative AI models in medical imaging.',
+      link: 'https://your-link-to-slides.com', 
+    },
+    {
+      title: 'Lecture Series: Model Training and Evaluation in Medical Imaging',
+      description: 'Focuses on the methods used to train and evaluate generative AI models to ensure accuracy and reliability in medical imaging tasks.',
+      link: 'https://your-link-to-slides.com', 
+    },
+    {
+      title: 'Lecture Series: Applications and Future Directions in Medical Imaging AI',
+      description: 'Examines current applications of AI in medical imaging and explores potential future developments in the field.',
+      link: 'https://your-link-to-slides.com', 
     },
   ];
+  
 
   const codeRepositories = [
     {
-      title: 'Medical Imaging AI Pipeline',
-      description: 'A repository containing code for training and deploying AI models for medical imaging analysis.',
-      link: '#', // Replace with actual link to code repository
-    },
-    {
-      title: 'Ethical AI Toolkit',
-      description: 'A toolkit designed to assess ethical considerations in AI model development.',
-      link: '#', // Replace with actual link to code repository
+      title: 'ICU Project Repository',
+      description: 'The goal is to solve issues relating to data imbalance and scarcity using Generative AI techniques, specifically diffusion based problems.',
+      link: '#', 
     },
   ];
 
@@ -88,7 +92,6 @@ const Research = () => {
                 {lecture.title}
               </a>
               <p>{lecture.description}</p>
-              <p><em>Date: {lecture.date}</em></p>
             </li>
           ))}
         </ul>

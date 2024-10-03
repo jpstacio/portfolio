@@ -3,57 +3,69 @@
     margin: 0 auto;
     padding: 60px 20px;
     text-align: center;
-  }
-  
-  .research-section {
+}
+
+.research-section {
     margin-bottom: 3rem;
-  }
-  
-  .research-section h2 {
+}
+
+/* Adjust the heading style to have a single line */
+.research-section h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
     color: #f4bf75;
-    border-bottom: 1px solid #f4bf75;
-    padding-bottom: 0.5rem;
-  }
-  
-  .research-section p {
+    position: relative;
+    display: inline-block;
+}
+
+/* Single underline using ::after for consistency */
+.research-section h2:after {
+    content: '';
+    display: block;
+    width: 60%;
+    margin: 0.5rem auto;
+    border-bottom: 1px solid #f4bf75; 
+}
+
+/* Paragraph Styling */
+.research-section p {
     font-size: 1.2rem;
     line-height: 1.6;
     color: #a6e22e;
-  }
-  
-  .research-section ul {
+}
+
+/* List Styling */
+.research-section ul {
     list-style-type: none;
     padding: 0;
-  }
-  
-  .research-section li {
+}
+
+.research-section li {
     margin: 1rem 0;
     display: flex;
     align-items: center; /* Align the arrow and the link */
-  }
-  
-  .research-section a {
+}
+
+/* Link Styling */
+.research-section a {
     font-size: 1.2rem;
     color: #f92672; /* Pink link color */
     text-decoration: none;
     margin-left: 10px; /* Space between arrow and link */
-  }
-  
-  .research-section a:hover {
+}
+
+.research-section a:hover {
     text-decoration: underline;
-  }
-  
-  /* Blinking Arrow Animation */
-  .blink-arrow {
+}
+
+/* Blinking Arrow Animation */
+.blink-arrow {
     font-size: 1.5rem;
     animation: blink 1.2s infinite;
-  }
-  
-  @keyframes blink {
+}
+
+@keyframes blink {
     0% { opacity: 1; }
     50% { opacity: 0; }
     100% { opacity: 1; }
-  }
-  
+}

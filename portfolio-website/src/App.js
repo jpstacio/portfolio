@@ -5,7 +5,7 @@ import Projects from './pages/Projects';
 import Research from './pages/Research';
 import Education from './pages/Education';
 import NotFound from './pages/NotFound';
-import Navbar from './components/Navbar'; // Import Navbar
+import Navbar from './components/Navbar'; 
 
 function App() {
   return (
