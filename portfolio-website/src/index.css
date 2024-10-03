@@ -10,3 +10,18 @@ a {
   color: #f92672; /* Link color */
   text-decoration: none;
 }
+
+.centered-page {
+  padding: 120px 20px 60px; /* Apply to all pages using this class */
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: #f4bf75; /* Kimbie Dark highlight color */
+}
+
+p {
+  color: #a6e22e; /* Accent color */
+}

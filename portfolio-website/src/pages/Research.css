@@ -1,0 +1,59 @@
+.centered-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .research-section {
+    margin-bottom: 3rem;
+  }
+  
+  .research-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #f4bf75;
+    border-bottom: 1px solid #f4bf75;
+    padding-bottom: 0.5rem;
+  }
+  
+  .research-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #a6e22e;
+  }
+  
+  .research-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .research-section li {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center; /* Align the arrow and the link */
+  }
+  
+  .research-section a {
+    font-size: 1.2rem;
+    color: #f92672; /* Pink link color */
+    text-decoration: none;
+    margin-left: 10px; /* Space between arrow and link */
+  }
+  
+  .research-section a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Blinking Arrow Animation */
+  .blink-arrow {
+    font-size: 1.5rem;
+    animation: blink 1.2s infinite;
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  

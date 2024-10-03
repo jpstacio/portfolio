@@ -1,0 +1,42 @@
+.centered-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 120px 20px 60px; /* Add padding-top to push content below navbar */
+    text-align: center;
+  }
+  
+  .education-section {
+    margin-bottom: 4rem; /* Space between sections */
+  }
+  
+  .education-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #f4bf75; /* Kimbie Dark highlight */
+    border-bottom: 1px solid #f4bf75; /* Subtle underline to separate sections */
+    padding-bottom: 0.5rem;
+  }
+  
+  .education-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .education-section li {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    color: #a6e22e; /* Kimbie Dark accent color */
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #a6e22e;
+  }
+  
+  .awards-section {
+    font-style: italic;
+    font-size: 1.1rem;
+  }
+  
