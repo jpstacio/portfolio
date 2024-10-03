@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Projects.css'; 
 
 const Projects = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const technicalSkills = {
     languages: ['Python', 'Java', 'JavaScript', 'TypeScript', 'SQLite', 'HTML/CSS', 'HTML5'],
     frameworks: ['React', 'Node.js', 'Next.js', 'FastAPI', 'Express', 'Phaser.js'],

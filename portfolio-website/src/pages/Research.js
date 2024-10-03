@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Research.css'; 
 
 const Research = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const publications = [
     {
       title: 'Generative AI in Medical Imaging',
