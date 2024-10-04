@@ -12,7 +12,7 @@ function App() {
   const basename = process.env.NODE_ENV === 'production' ? '/portfolio' : '';
   
   return (
-    <Router basename={basename}>
+    <Router basename="/portfolio">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

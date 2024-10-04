@@ -1,14 +1,9 @@
+/* Centered Page */
 .centered-page {
     max-width: 900px;
     margin: 0 auto;
     padding: 60px 20px;
     text-align: center;
-  }
-  
-  .projects-page h2 {
-    font-size: 2.5rem;
-    color: #f4bf75; 
-    margin-bottom: 2rem;
   }
   
   /* Technical Skills Section */
@@ -17,30 +12,39 @@
     text-align: center;
   }
   
-  .skills-section p {
-    font-size: 1.2rem;
-    color: #ffffff; 
+  .skills-section h2 {
+    font-size: 2.5rem;
+    color: #f4bf75; /* Highlight color */
+    margin-bottom: 1.5rem;
   }
   
+  /* Title Styling */
   .languages-title {
-    color: #f92672; 
+    color: #a6e22e; /* Green for Languages */
   }
   
   .frameworks-title {
-    color: #a6e22e; 
+    color: #66d9ef; /* Blue for Frameworks */
   }
   
   .developer-tools-title {
-    color: #66d9ef; 
+    color: #f92672; /* Pink for Developer Tools */
   }
   
-  .technologies-title {
-    color: #a6e22e; 
+  /* Ensure descriptions after the colon are white */
+  .skills-section p {
+    display: inline-block;
+    color: #ffffff; /* White for the descriptions */
   }
   
-  /* Project Section */
+  /* Only the titles will maintain their specific color */
+  .skills-section p strong {
+    color: inherit; /* Ensure strong elements (titles) keep their original color */
+  }
+  
+  /* Projects Section */
   .project-section {
-    background-color: #221a0f; 
+    background-color: #221a0f;
     padding: 20px;
     border: 1px solid #f4bf75;
     margin-bottom: 2rem;
@@ -49,22 +53,22 @@
   
   .project-section h3 {
     font-size: 1.8rem;
-    color: #f92672; 
+    color: #f92672; /* Pink for project titles */
   }
   
   .project-section .technologies {
     font-size: 1.2rem;
-    color: #a6e22e; 
+    color: #a6e22e; /* Green for technologies used */
   }
   
   .project-section .description {
     font-size: 1.2rem;
-    color: #ffffff; 
+    color: #ffffff; /* White for project description */
   }
   
   .project-section a {
     font-size: 1.2rem;
-    color: #f92672; 
+    color: #66d9ef; /* Blue for project links */
     text-decoration: none;
   }
   

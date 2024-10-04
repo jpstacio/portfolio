@@ -1,3 +1,4 @@
+/* home.css */
 .centered-page {
   max-width: 900px;
   margin: 0 auto;
@@ -7,18 +8,33 @@
 
 h1 {
   font-size: 2.5rem;
-  color: #f4bf75; /* Highlight color */
+  color: #f4bf75;
   margin-bottom: 2rem;
   white-space: nowrap;
   overflow: hidden;
   border-right: 2px solid;
   width: fit-content;
   margin: 0 auto;
-  animation: blink-cursor 0.75s step-end infinite; /* Blinking cursor */
+  animation: blink-cursor 0.75s step-end infinite;
+}
+
+@keyframes blink-cursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+/* Links section styling */
+.links-section ul {
+  padding: 0;
+  list-style-type: none; /* Remove bullet points */
 }
 
 .links-section ul a {
-  display: inline-block; /* Display links as inline-block to allow margin adjustments */
+  display: inline-block;
   font-size: 1.5rem;
   color: #f92672; /* Pink color for links */
   margin: 10px 20px; /* Add spacing between the links */
@@ -29,34 +45,9 @@ h1 {
 .links-section ul a:hover {
   color: #a6e22e; /* Change to green on hover */
 }
+
 .links-section h2 {
   font-size: 2rem;
   color: #f4bf75; /* Same highlight color for consistency */
   margin-bottom: 15px;
-}
-
-.social-links {
-  margin-top: 20px;
-}
-
-.social-links a {
-  font-size: 1.5rem;
-  color: #f92672; /* Pink color for links */
-  margin: 0 15px;
-  text-decoration: none;
-  transition: color 0.3s ease-in-out;
-}
-
-.social-links a:hover {
-  color: #a6e22e; /* Change to green on hover */
-}
-
-/* Blinking cursor animation */
-@keyframes blink-cursor {
-  from {
-    border-right-color: rgba(255, 255, 255, 0.75);
-  }
-  to {
-    border-right-color: transparent;
-  }
 }

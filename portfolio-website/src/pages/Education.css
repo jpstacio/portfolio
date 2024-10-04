@@ -90,3 +90,7 @@ h1:after, h2:after {
     display: inline-block;
     margin-bottom: 0.5rem; 
 }
+
+p {
+    color: #a6e22e; 
+}

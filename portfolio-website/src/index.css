@@ -1,46 +1,71 @@
-/* index.css */
+/* global.css */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Monaco', 'Courier New', monospace;
-  background-color: #221a0f; /* Kimbie Dark background */
-  color: #c5c8c6; 
+  background-color: #221a0f;
+  color: #c5c8c6;
 }
 
 a {
-  color: #f92672; 
+  color: #f92672;
   text-decoration: none;
 }
 
 .centered-page {
-  padding: 120px 20px 60px;
   max-width: 900px;
   margin: 0 auto;
+  padding: 120px 20px;
   text-align: center;
 }
 
-h1 {
-  color: #f4bf75; 
-}
-
-p {
-  color: #a6e22e; 
-}
-
+/* Heading Styles */
 h1, h2 {
-  color: #f4bf75; 
-  font-size: 2.5rem; 
+  color: #f4bf75;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  padding-bottom: 0.5rem; 
 }
 
 h1:after, h2:after {
   content: '';
   display: block;
   width: 80%; 
-  margin: 0.5rem auto; 
-  border-bottom: 2px solid #f4bf75; 
+  margin: 0.5rem auto;
+  border-bottom: 2px solid #f4bf75;
+}
+/* Mobile-Responsive Styles */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .centered-page {
+    padding: 60px 15px;
+  }
+
+  h1, h2 {
+    font-size: 1.8rem;
+  }
+
+  .links-section ul a {
+    font-size: 1.2rem;
+    margin: 8px 10px;
+  }
+
+  /* Navbar Adjustments */
+  .navbar {
+    padding: 10px 0;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar-links li {
+    margin-bottom: 15px;
+  }
+
+  /* Other section-specific mobile adjustments can be added here */
 }
