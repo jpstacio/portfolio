@@ -5,12 +5,15 @@ import Projects from './pages/Projects';
 import Research from './pages/Research';
 import Education from './pages/Education';
 import NotFound from './pages/NotFound';
-import Navbar from './components/Navbar'; 
+import Navbar from './components/Navbar';
 
 function App() {
+  // Only apply the basename when in production (GitHub Pages)
+  const basename = process.env.NODE_ENV === 'production' ? '/portfolio' : '';
+  
   return (
-    <Router>
-      <Navbar /> {/* Place Navbar here so it shows on all pages */}
+    <Router basename={basename}>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
