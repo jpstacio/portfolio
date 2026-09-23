@@ -1,14 +1,17 @@
 export const profile = {
-  name: "Your Name",
+  name: "Jayana Estacio",
   title: "PhD Student in Computer Science",
-  institution: "Your University",
-  advisor: { name: "Prof. Advisor Name", url: "https://advisor-website.edu" },
-  year: "3rd-year",
-  interests: "One or two sentences about your research focus.",
+  institution: "University of Washington, Tacoma",
+  institutionUrl: "https://www.tacoma.uw.edu/set",
+  advisor: { name: "Prof. Ankur Teredesai", url: "https://faculty.washington.edu/ankurt/" },
+  year: "1st-year",
+  bio: "I’m a researcher focused on machine learning, information retrieval, and evidence-grounded AI. My work explores how we can build more reliable and context-aware systems, with research spanning clinical protocols, health information, and large-scale data. I enjoy turning complex research questions into practical, reproducible tools and experiments.",
+  interests: ["Machine Learning", "Information Retrieval", "Health and AI"],
+  photo: null, // put profile.jpg in public/ and change this to "/profile.jpg"
   email: "you@university.edu",
   links: {
-    github: "https://github.com/yourusername",
+    github: "https://github.com/jpstacio?tab=repositories",
     scholar: "https://scholar.google.com/citations?user=XXXX",
-    linkedin: "https://linkedin.com/in/yourusername",
+    linkedin: "https://www.linkedin.com/in/jpstacio/",
   },
 };
