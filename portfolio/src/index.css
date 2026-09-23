@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  /* surfaces */
+  --color-night: #1a1b26;
+  --color-panel: #1f2335;
+  --color-line: #292e42;
+
+  /* text */
+  --color-fg: #c0caf5;
+  --color-dim: #a9b1d6;
+  --color-comment: #565f89;
+
+  /* syntax accents */
+  --color-keyword: #bb9af7;
+  --color-func: #7aa2f7;
+  --color-type: #7dcfff;
+  --color-string: #9ece6a;
+  --color-number: #ff9e64;
+  --color-accent: #f7768e;
+
+  --font-sans: "Zen Kaku Gothic New", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+body {
+  @apply bg-night text-fg font-sans antialiased;
+  /* faint dot grid, like manuscript paper */
+  background-image: radial-gradient(var(--color-line) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+::selection {
+  @apply bg-keyword/30 text-fg;
+}
