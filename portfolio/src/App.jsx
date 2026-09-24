@@ -3,7 +3,7 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Publications from "./pages/Publications";
 import Projects from "./pages/Projects";
-import CV from "./pages/CV";
+import CV from "./pages/Resume";
 
 export default function App() {
   return (
@@ -13,7 +13,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/publications" element={<Publications />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/cv" element={<CV />} />
+          <Route path="/resume" element={<CV />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -7,7 +7,7 @@ export default function CV() {
 
   return (
     <div>
-      <SectionHeader index="04" title="Curriculum Vitae" />
+      <SectionHeader index="04" title="Resume" />
 
       <div className="flex flex-wrap items-center justify-between gap-4 mb-8">
         <p className="font-mono text-xs text-comment">
