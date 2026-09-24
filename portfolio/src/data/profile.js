@@ -9,6 +9,7 @@ export const profile = {
   interests: ["Machine Learning", "Information Retrieval", "Health and AI"],
   photo: null, // put profile.jpg in public/ and change this to "/profile.jpg"
   email: "you@university.edu",
+  cv: { file: "/Estacio_Resume.pdf", updated: "2026.09" },
   links: {
     github: "https://github.com/jpstacio?tab=repositories",
     scholar: "https://scholar.google.com/citations?user=XXXX",

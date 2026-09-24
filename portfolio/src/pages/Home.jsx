@@ -1,11 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { profile } from "../data/profile";
 import { news } from "../data/news";
-
-
-function Label({ children }) {
-  return <h2 className="font-mono text-xs text-comment mb-5">// {children}</h2>;
-}
+import Label from "../components/Label";
 
 let hasPlayed = false; // lives outside the component so it survives page navigation
 
